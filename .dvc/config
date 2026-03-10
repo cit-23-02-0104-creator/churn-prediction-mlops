@@ -1,0 +1,4 @@
+[core]
+    remote = storage
+['remote "storage"']
+    url = https://dagshub.com/cit-23-02-0104-creator/churn-prediction-mlops.dvc
