@@ -5,12 +5,12 @@ stages:
     deps:
     - path: data/raw/dataset.csv
       hash: md5
-      md5: 0f9de68e012bd3aed5fa7cdc9fc421af
-      size: 977501
+      md5: 7f07de26b054de4c36eed95a1277fe21
+      size: 978285
     - path: src/preprocessing.py
       hash: md5
-      md5: 7a54627f6b6c5bc39ff6cad27467a324
-      size: 2028
+      md5: 8fb69ec4be0634183da71ec3e075d7ec
+      size: 1653
     outs:
     - path: data/processed
       hash: md5
@@ -27,8 +27,8 @@ stages:
       nfiles: 4
     - path: src/train.py
       hash: md5
-      md5: 3897ef4c696409d0bb45e7f507c9b29a
-      size: 923
+      md5: 16842eb54d7b4f981f95791ac85594c9
+      size: 1383
     outs:
     - path: models/model.pkl
       hash: md5
@@ -48,10 +48,22 @@ stages:
       size: 17846121
     - path: src/evaluate.py
       hash: md5
-      md5: 28b63b99d7864ac3a80d781fd5456a6e
-      size: 1301
+      md5: b8fe45092a8f3983e95c5f71a59bc065
+      size: 2512
     outs:
     - path: metrics.txt
       hash: md5
-      md5: 4a819cf35d494b355f67abeaa62f7d52
-      size: 352
+      md5: 0aaec2081b56b41766790cba5dc5f622
+      size: 424
+  data_ingestion:
+    cmd: python src/data_ingestion.py
+    deps:
+    - path: src/data_ingestion.py
+      hash: md5
+      md5: 0f9ad25b2e3494bc54a59cdf3e4bc41e
+      size: 784
+    outs:
+    - path: data/raw/dataset.csv
+      hash: md5
+      md5: 7f07de26b054de4c36eed95a1277fe21
+      size: 978285

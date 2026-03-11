@@ -1,4 +1,10 @@
 stages:
+  data_ingestion:
+    cmd: python src/data_ingestion.py
+    deps:
+      - src/data_ingestion.py
+    outs:
+      - data/raw/dataset.csv
   preprocess:
     cmd: python src/preprocessing.py
     deps:
@@ -22,4 +28,3 @@ stages:
     metrics:
       - metrics.txt:
           cache: false
-          

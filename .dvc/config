@@ -1,4 +1,4 @@
 [core]
     remote = storage
 ['remote "storage"']
-    url = https://dagshub.com/cit-23-02-0104-creator/churn-prediction-mlops.dvc
+    url = https://cit-23-02-0104-creator:14aef12e1db1a84ee9d49c7dda99c17d929d6bf4@dagshub.com/cit-23-02-0104-creator/churn-prediction-mlops.dvc
