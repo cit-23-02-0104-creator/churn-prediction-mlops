@@ -330,7 +330,7 @@ dvc remote modify --local storage auth <username>:<token>
 
 ## Author
 
-**Dewmi Abeykoon**
+**Jayani samarakoon**
 
 - GitHub: https://github.com/cit-23-02-0104-creator/churn-prediction-mlops.git
 - Repository: https://github.com/cit-23-02-0104-creator/churn-prediction-mlops
