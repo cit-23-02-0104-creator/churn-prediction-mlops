@@ -332,8 +332,8 @@ dvc remote modify --local storage auth <username>:<token>
 
 **Dewmi Abeykoon**
 
-- GitHub: [https://github.com/dewmiabeykoon](https://github.com/dewmiabeykoon)
-- Repository: [https://github.com/dewmiabeykoon/churn-prediction-mlops](https://github.com/dewmiabeykoon/churn-prediction-mlops)
+- GitHub: https://github.com/cit-23-02-0104-creator/churn-prediction-mlops.git
+- Repository: https://github.com/cit-23-02-0104-creator/churn-prediction-mlops
 
 MLOps portfolio project demonstrating end-to-end machine learning engineering practices.
 
