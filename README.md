@@ -698,7 +698,7 @@ python app.py
 
 Open:
 
-```text
+
 http://localhost:8000/docs
 ```
 
@@ -712,7 +712,7 @@ mlflow ui
 
 Open:
 
-```text
+
 http://localhost:5000
 ```
 
@@ -728,7 +728,7 @@ astro dev start
 
 Open:
 
-```text
+
 http://localhost:8080
 ```
 
