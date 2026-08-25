@@ -226,7 +226,7 @@ The recall of approximately **47.18%** also highlights an important area for fut
 
 The confusion matrix provides a detailed view of the model's classification performance.
 
-![Confusion Matrix](docs/screenshots/confusion_matrix.png)
+![Confusion Matrix](Screenshots/confusion_matrix.png)
 
 ### Observed Results
 
@@ -243,7 +243,7 @@ This gives a clear picture of where the model correctly identifies customers and
 
 # 📈 ROC Curve
 
-![ROC Curve](docs/screenshots/roc_curve.png)
+![ROC Curve](Screenshots/roc_curve.png)
 
 ### ROC-AUC
 
@@ -273,7 +273,7 @@ MLflow also provides a central location for experiment results and model-related
 
 ### MLflow Dashboard
 
-![MLflow Experiment](docs/screenshots/mlflow_experiment_eval.png)
+![MLflow Experiment](Screenshots/mlflow_experiment_eval.png)
 
 ### Run MLflow Locally
 
@@ -354,7 +354,7 @@ model_registration
 
 ### Airflow DAG
 
-![Airflow DAG](docs/screenshots/airflow_dag_graph.png)
+![Airflow DAG](Screenshots/airflow_dag_graph.png)
 
 All stages are connected using task dependencies and are executed as a single automated workflow.
 
@@ -501,7 +501,7 @@ POST /predict
 
 # 🖥️ Live API Demonstration
 
-![FastAPI Prediction](docs/screenshots/fastapi_predict_full.png)
+![FastAPI Prediction](Screenshots/fastapi_predict_full.png)
 
 The screenshot demonstrates a successful live request to:
 
