@@ -283,7 +283,6 @@ mlflow ui
 
 Then open:
 
-```text
 http://localhost:5000
 ```
 
@@ -360,7 +359,7 @@ All stages are connected using task dependencies and are executed as a single au
 
 ### Airflow Local UI
 
-```text
+
 http://localhost:8080
 ```
 
@@ -525,7 +524,7 @@ python app.py
 
 Then open:
 
-```text
+
 http://localhost:8000
 ```
 
@@ -557,7 +556,7 @@ docker run -p 8000:8000 churn-prediction-mlops
 
 Then access:
 
-```text
+
 http://localhost:8000/docs
 ```
 
@@ -652,8 +651,7 @@ churn-prediction-mlops/
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<YOUR-GITHUB-USERNAME>/churn-prediction-mlops.git
-cd churn-prediction-mlops
+gh repo clone cit-23-02-0104-creator/churn-prediction-mlops
 ```
 
 ---
