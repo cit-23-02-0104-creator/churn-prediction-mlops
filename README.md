@@ -762,45 +762,6 @@ Use environment variables or a secrets-management solution for sensitive configu
 
 ---
 
-# 🎥 Final Demo Checklist
-
-The project is designed to demonstrate the complete MLOps workflow during the final presentation.
-
-### Code Explanation
-
-* [ ] Project structure
-* [ ] Data pipeline
-* [ ] DVC pipeline
-* [ ] MLflow tracking
-* [ ] Airflow DAG
-* [ ] DAGsHub integration
-* [ ] FastAPI implementation
-* [ ] Docker configuration
-
-### Live Demonstration
-
-* [ ] Run Airflow DAG
-* [ ] Show successful DAG execution
-* [ ] Show MLflow experiment
-* [ ] Show metrics
-* [ ] Show confusion matrix
-* [ ] Show ROC curve
-* [ ] Show DVC pipeline/versioning
-* [ ] Show DAGsHub repository
-* [ ] Run `/predict`
-* [ ] Show API response
-* [ ] Demonstrate Docker deployment
-
-### Presentation
-
-* [ ] Code visible
-* [ ] System running
-* [ ] Live API prediction
-* [ ] Face visible during presentation
-* [ ] Keep demonstration within the required time
-
----
-
 # 📋 Assignment Requirement Mapping
 
 | Assignment Requirement | Implementation                                                  |
